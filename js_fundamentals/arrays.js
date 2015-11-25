@@ -7,4 +7,9 @@
 // Bonus: Change it to log "My 1st choice, "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is.
 
 
+my_array = ["orange", "red", "green", "purple"]
+
+for(var i = 0; i < my_array.length; i++) {
+  console.log("My #" + (i+1) + " choice is " + my_array[i]);
+}
 
